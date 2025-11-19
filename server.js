@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopol
 
 // ✅ Root route
 app.get("/", (req, res) => {
-  res.send("🚀 Server is running...");
+  res.send("IFSC Server is running...");
 });
 
 // ✅ API routes
